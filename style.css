@@ -1,0 +1,28 @@
+.grid-wrapper {
+    border: 1px solid #000000;
+    width: fit-content;
+}
+
+.line {
+    display: flex;
+}
+
+.cell {
+    height: 20px;
+    width: 20px;
+    background: #ffffff;
+}
+
+.cell.js-active {
+    background: red;
+}
+
+.body-wrapper {
+    display: flex
+}
+
+.utility-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
